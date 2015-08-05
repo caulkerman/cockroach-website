@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="roachApp">
+<head>
+	<title>Cockroaches</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="roach.css">
+</head>
+<body>
+	<my-cssdirective my-content="Disgusting" other-content="Cockroaches" my-class="CustomClass"></my-cssdirective>
+	<div class="img_link">
+		<a href="#/type">
+		<img src="images/gas_roach.jpg"></a>
+	</div>
+	<div class="container" ng-view></div>
+	<div class="something"></div>
+	<div class="footer"></div>
+	<script src="https://code.angularjs.org/1.4.3/angular.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-route.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/controllers/roachTypeCtrl.js"></script>
+	<script src="js/controllers/roachInfoCtrl.js"></script>
+	<script src="js/services_and_directives/mainService.js"></script>
+	<script src="js/services_and_directives/infoDirective.js"></script>
+	<script src="js/services_and_directives/cssDirective.js"></script>
+</body>
+</html>

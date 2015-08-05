@@ -1,0 +1,74 @@
+body {
+	margin: auto;
+	width: 100%;
+	/*background-image: url("http://bedrockboulders.com/images/beach-rock/criva-natural-rock-gravel.png");*/
+}
+
+.CustomClass {
+  color: brown;
+}
+
+.header {
+	margin: auto;
+	width: 80%;
+	height: 200px;
+	text-align: center;
+	font-size: 60px;
+
+}
+
+.infotextcontainer {
+	width: 80%;
+}
+.text_container {
+
+	border: 3px solid #ccc;
+	background-color: #fff;
+	margin-bottom: 10px;
+	margin-left: 20%;
+	/*margin: auto;*/
+	width: 70%;
+	/*margin-bottom: 10px;*/
+}
+
+.roachInfoPic {
+	float: left;
+	
+	max-height: 150px;
+}
+
+.roach_pic {
+	overflow: hidden;
+	/*float: right;*/
+	/*padding-right: 50px;*/
+	max-height: 50px;
+}
+
+strong {
+	font-size: 1.75em;
+}
+
+.img_link {
+	/*height: auto;*/
+	width: 30%;
+	float: left;
+	
+}
+
+/*#text {
+	z-index: 100;
+	position: absolute;
+	left: 50px;
+	top: 5px;
+}*/
+
+/*ul {
+	border: 3px solid #ccc;
+	background-color: #fff;
+	margin-bottom: 10px;
+}*/
+
+/*.roach_pic {
+	display: inline-block;
+}*/
+
